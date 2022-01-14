@@ -1,0 +1,75 @@
+$color-fondo: #0B1A3B;
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background: $color-fondo;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+
+    &__logo {
+        margin-top: 100px;
+        padding: 30px;
+        padding-bottom: 60px;
+        animation: logoScale 7s infinite;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__message {
+        padding-top: 10px;
+    }
+
+    &__icons {
+
+        display: flex;
+        margin: 30px;
+        align-items: center;
+
+
+        .pinon2{
+            margin-top: 30px;
+            margin-left: -30px;
+            width: 80px;
+            height: 80px;
+            animation: giroInverso 5s linear infinite;
+        }
+        .pinon1{
+            width: 150px;
+            height: 150px;
+            animation: giro 10s linear infinite;
+        }
+
+    }
+}
+
+@keyframes logoScale {
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+@keyframes giro {
+    
+   100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes giroInverso {
+    
+    100%{
+         transform: rotate(-360deg);
+     }
+     
+ }
