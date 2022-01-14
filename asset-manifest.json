@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pagina-imaq/static/css/main.a2799ac5.css",
+    "main.js": "/pagina-imaq/static/js/main.907edcd2.js",
+    "static/media/logoImaq.png": "/pagina-imaq/static/media/logoImaq.97d73d39c496c500c610.png",
+    "static/media/pinonIcon.svg": "/pagina-imaq/static/media/pinonIcon.b66420a94cb2d408e51386755081d4ca.svg",
+    "index.html": "/pagina-imaq/index.html",
+    "main.a2799ac5.css.map": "/pagina-imaq/static/css/main.a2799ac5.css.map",
+    "main.907edcd2.js.map": "/pagina-imaq/static/js/main.907edcd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2799ac5.css",
+    "static/js/main.907edcd2.js"
+  ]
+}
